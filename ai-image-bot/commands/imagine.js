@@ -9,7 +9,7 @@ const { generateImage } = require("../src/generateImage");
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("imagine")
+    .setName("ChipsGénerate")
     .addStringOption((option) =>
       option
         .setName("prompt")
