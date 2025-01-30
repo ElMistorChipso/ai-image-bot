@@ -12,8 +12,8 @@ module.exports = {
     .setName("ChipsGénerate")
     .addStringOption((option) =>
       option
-        .setName("prompt")
-        .setDescription("The prompt for the image")
+        .setName("description")
+        .setDescription("La description de l'image")
         .setRequired(true)
     )
     .setDescription("Imagine an image!"),
